@@ -1,0 +1,1 @@
+export $(cat example.cfg | egrep -v "(^#.*|^$)" | xargs -0)
